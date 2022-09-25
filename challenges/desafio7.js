@@ -1,6 +1,6 @@
 db.produtos.find({
   $and: [
-    { vendidos: { $gt: 50 } },
+    { vendidos: { $ne: 50 } },
     { tags: { $exists: false } },
   ],
 }, {
