@@ -7,7 +7,7 @@ db.produtos.updateMany({}, {
   },
 }, {
   $push: {
-    tags: "muito sódio"
+    tags: "muito sódio",
   },
 });
 
